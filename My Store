@@ -1,0 +1,16 @@
+CREATE TABLE Dolphfit_Activewear ( id INTEGER PRIMARY KEY, item TEXT,
+price INTEGER, color TEXT, size TEXT, quantity INTEGER);
+
+INSERT INTO Dolphfit_activewear VALUES( 1, "Ribbed Bra", 19.99,
+"Blue", "Small", 20);
+INSERT INTO Dolphfit_activewear VALUES (2, "Ribbed Leggings", 34.99,
+"Blue", "Small", 20);
+INSERT INTO Dolphfit_activewear VALUES (3, "Ribbed Shorts", 29.99,
+"Blue", "Small", 20);
+INSERT INTO Dolphfit_activewear VALUES (4, "Halter Bra", 19.99,
+"Pink", "Medium", 20);
+INSERT INTO Dolphfit_activewear VALUES (5, "Supreme Ribbed Leggings",
+49.99, "Pink", "Medium", 20);
+SELECT * FROM Dolphfit_Activewear;
+SELECT * FROM Dolphfit_Activewear ORDER BY PRICE;
+Select SUM(quantity) FROM Dolphfit_activewear;
