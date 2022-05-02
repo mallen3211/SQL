@@ -1,0 +1,115 @@
+/* Create table about the people and what they do here */
+
+Create table People ( id INTEGER PRIMARY KEY AUTOINCREMENT , fullname TEXT,
+age INTEGER, gender TEXT);
+
+INSERT INTO People (fullname, age, gender) VALUES  ( 'Tom Brady', 44, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'LeBron James', 37, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Jeff Bezos', 58, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Adele', 38, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Elon Musk', 50, 'Male');
+INSERT INTO People  (fullname, age, gender) VALUES ( 'George Lucas', 77, 'Male');
+INSERT INTO People (fullname, age, gender)  VALUES ( 'Michael Jordan', 59, 'Male');
+INSERT INTO People (fullname, age, gender)  VALUES ( 'Peyton Manning', 46, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Drake', 35, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Kanye West', 44, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Kim Kardashian',41, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Spongebob Squarepants',
+null, 'Male' );
+INSERT INTO People (fullname, age, gender)  VALUES ( 'Patrick Star', null, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Kylie Jenner', 24, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Warren Buffet', 91, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Christopher Nolan', 51, 'Male');
+INSERT INTO People  (fullname, age, gender) VALUES ( 'Josh Allen', 25, 'Male');
+INSERT INTO People (fullname, age, gender)  VALUES ( 'Lil Baby', 27, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Nikki Manaj', 39, 'Female');
+INSERT INTO People  (fullname, age, gender) VALUES ( 'Beyonce', 40, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Sandy Cheeks', null , 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Rihanna', 34, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Serena Williams', 40, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Chris Tucker',50, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Jackie Chan', 68, 'Male');
+INSERT INTO People  (fullname, age, gender) VALUES ( 'Gal Gadot', 37, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Scarlett Johansson', 37 ,
+'Female');
+INSERT INTO People (fullname, age, gender)  VALUES ( 'Will Smith', 53, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Travis Scott', 31 , 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Simone Biles', 25 , 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Ariana Grande', 28, 'Female');
+INSERT INTO People  (fullname, age, gender) VALUES ( 'Oprah Winfrey', 68 ,
+'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Dwanyne Johnson', 50 , 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Donald Trump', 75, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Halle Berry', 55, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Johnny Deep', 58, 'Male');
+INSERT INTO People  (fullname, age, gender) VALUES ( ' Denzel Washington', 67, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Kevin Durant', 33, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Stephen Curry', 34, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Candace Parker', 36, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Megan Thee Stallion', 27,
+'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Future', 38, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Doja Cat', 26 , 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Dua Lipa', 26, 'Female');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Joe Rogan', 54, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Jake Paul', 25, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( "Shaquille O'Neal", 50, 'Male');
+INSERT INTO People (fullname, age, gender) VALUES ( 'Venus Williams', 41, 'Female');
+INSERT INTO People  (fullname, age, gender) VALUES ( 'Stephen King', 74, 'Male');
+INSERT INTO People (fullname, age, gender)  VALUES ( 'J.K. Rowling',56, 'Female');
+Create Table hobbies (id INTEGER PRIMARY KEY AUTOINCREMENT, People_id INTEGER , hobby_name TEXT, years_practiced INTEGER);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (1, 'Football',  22 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES (2, 'Basketball', 19);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (3, 'Entrepreneur', 28 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (4, 'Artist', 29 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (5, 'Entrepreneur',27);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (6, 'Film Director', 45);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (7, 'Basketball', 15 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  ( 8, 'Football', 18);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (9, 'Artist', 16);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (10,  'Artist',
+26);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  ( 11,  'Entrepreneur',
+15); 
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (12,  'TV',  23);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (13,  'TV', 23 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (14, 'Entrepreneur', 15);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (15, 'Entrepreneur',
+68);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (16, 'Film Director', 23);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  ( 17, 'Football', 4);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  ( 18, 'Artist', 7);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (19, 'Artist', 15);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  ( 20, 'Artist', 25);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (21, 'TV', 23);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (22, 'Artist', 19);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (23, 'Tennis', 27);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (24, 'Actor', 30);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (25, 'Actor', 42);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (26, 'Actress', 15 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (27, 'Actress', 28 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (28, 'Actor', 36 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (29, 'Artist', 14 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (30, 'Gymnastics', 19);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (31, 'Artist', 14 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (32, 'TV Host', 36 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (33, 'Actor', 27 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (34, 'Entrepreneur', 52 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (35, 'Actress', 33  );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (36, 'Actor', 38 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (37, 'Actor', 45 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (38, 'Basketball', 13 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (39, 'Basketball', 15 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (40, 'Basketball', 14 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (41, 'Artist', 20 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (42, 'Artist', 12 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (43, 'Artist', 8);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (44, 'Artist', 12 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (45, 'Podcast Host', 13 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (46, 'Entrepreneur', 8 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (47, 'Basketball', 19);
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (48, 'Tennis', 29 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (49, 'Author', 49 );
+INSERT INTO hobbies (People_id,hobby_name, years_practiced) VALUES  (50, 'Author', 25 );
+SELECT people.fullname, hobbies.hobby_name From people JOIN hobbies
+ON people.id = hobbies.People_id
